@@ -1,0 +1,3 @@
+<!--pages/home/home.wxml-->
+<text class='title'>奇哥</text>
+<button size='mini'>牛皮</button>
