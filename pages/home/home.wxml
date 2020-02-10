@@ -1,3 +1,14 @@
 <!--pages/home/home.wxml-->
-<text class='title'>奇哥</text>
-<button size='mini'>牛皮</button>
+<!-- 1.小程序的数据绑定 {{}} -> Mustache 双大括号语法-->
+<view>Hello {{name}}</view>
+<view >Age: {{age + 20}}</view>
+
+
+<!-- 2.列表展示: wx:for -->
+<view wx:for='{{students}}'>{{item.name}}-{{item.age}}</view>
+
+
+<!-- 3.事件监听改变data -->
+<view>当前计数：{{counter}}</view>
+<button size='mini' bindtap='handleBtnClick'>+</button>
+<button size='mini' bindtap='handleSubtract'>-</button>
