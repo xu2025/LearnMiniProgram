@@ -1,0 +1,21 @@
+<!--1..input的基本使用-->
+<input/>
+
+<!--2.value:input中的默认值-->
+<input value='哈哈'/>
+
+<!--3.type:决定键盘的类型:(英文字母/其他字符/数字)-->
+<input type='number'/>
+
+<!--4.password:明文/暗文-->
+<input password/>
+
+<!--5.placeholder:占位文字-->
+<input maxlength="5"
+confirm-type="submit"
+placeholder="请输入内容"/>
+
+<!--6.input绑定事件-->
+<input bindinput="handleInput"
+        bindfocus="handleFocus"
+        bindblur="handleBlur"/>
