@@ -1,0 +1,10 @@
+/* pages/wxss/wxss.wxss */
+@import './style/box.wxss';
+@import './style/content.wxss';
+@import '../../style/weui-searchbar.wxss';
+
+.box{
+  color:aqua;
+  font-size: 32px;
+}
+
